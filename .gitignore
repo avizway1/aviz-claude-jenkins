@@ -1,0 +1,31 @@
+# Claude Code internal files - never commit
+.claude/
+
+# Maven build output
+target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.eclipse
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot / logs
+*.log
+logs/
+
+# Environment secrets
+.env
+*.env
+
+# Maven wrapper (no .mvn dir in this project)
+!mvnw
+!mvnw.cmd
